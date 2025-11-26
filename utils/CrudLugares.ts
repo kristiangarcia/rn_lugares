@@ -39,3 +39,8 @@ export async function borrarLugar(lugar:Lugar){
     const URL = `http://${IP}:3000/lugares/${lugar.id}`
     await axios.delete(URL)
 }
+export async function buscarLugares(texto:string):Promise<Lugares>{
+    const URL = `http://${IP}:3000/lugares?q=${texto}`
+    const respuesta = await axios.get(URL)
+    return respuesta.data
+}
