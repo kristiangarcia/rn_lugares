@@ -14,12 +14,14 @@
     "expo": "~54.0.25",
     "expo-image": "~3.0.10",
     "expo-status-bar": "~3.0.8",
+    "json-server": "^0.17.4",
     "ramda": "^0.32.0",
     "react": "19.1.0",
     "react-native": "0.81.5",
     "react-native-uuid": "^2.0.3"
   },
   "devDependencies": {
+    "@types/ramda": "^0.31.1",
     "@types/react": "~19.1.0",
     "typescript": "~5.9.2"
   },
